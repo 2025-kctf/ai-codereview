@@ -28,5 +28,19 @@
     animation: glitchBottom 2.5s infinite;
     clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   }
+
+  .grid-bg {
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.25) 0.5px, transparent 0.5px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0.5px, transparent 0.5px);
+    background-size: 3px 3px;
+  }
+
+  .grid-bg-2 {
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.15) 0.5px, transparent 0.5px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.15) 0.5px, transparent 0.5px);
+    background-size: 6px 6px;
+  }
 }
 

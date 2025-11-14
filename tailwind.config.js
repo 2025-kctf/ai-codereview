@@ -8,7 +8,8 @@ export default {
         "glitch-top": "glitchTop 2s infinite",
         "glitch-bottom": "glitchBottom 2.5s infinite",
         "gradient-shift": "gradientShift 3s ease infinite",
-        twinkle: "twinkle 3s ease-in-out infinite",
+        grid: "animateGrid 20s linear infinite",
+        "grid-2": "animateGrid 30s linear infinite",
         "fade-in-up": "fadeInUp 1s ease-out",
         "pulse-custom": "pulse 0.5s ease",
         "slide-down": "slideDown 0.5s ease",
@@ -59,9 +60,13 @@ export default {
           "0%, 100%": { backgroundPosition: "0% 50%" },
           "50%": { backgroundPosition: "100% 50%" },
         },
-        twinkle: {
-          "0%, 100%": { opacity: "var(--star-opacity, 0.3)" },
-          "50%": { opacity: "var(--star-min-opacity, 0.1)" },
+        animateGrid: {
+          "0%": {
+            backgroundPosition: "0 0",
+          },
+          "100%": {
+            backgroundPosition: "3px 3px",
+          },
         },
         fadeInUp: {
           from: {
